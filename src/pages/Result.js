@@ -47,7 +47,7 @@ function ResultPage() {
                 history.goBack();
             }}> 다른 키워드로 볼래요 </button>
       </div>
-
+      <br />
       <div class="media-column">
         {info.map(data => (
           <div class="touch">

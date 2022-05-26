@@ -36,9 +36,8 @@ function Keyword(props){
     return (
         <>
         <Header/>
-        <p class="exp-title"><a class="mind">{ mindID }</a> 인
-        <br></br><a class="username">{ username }</a> 님을 위한 키워드를 추천해드릴게요.</p>
-        <br></br>
+        <div class="exp-title"><a class="username-large">{ mindID }</a> 인
+        <br></br><a class="username-large">{ username }</a> 님을 위한 키워드를 추천해드릴게요.</div>
         <div class="webname">
             <button id="box" class="div2" name="word1" value={keys[0]} onClick={ selectWord }># { keys[0] }</button>
             <button id="box" class="div2" name="word2" value={keys[1]} onClick={ selectWord }># { keys[1] }</button>

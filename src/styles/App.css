@@ -382,7 +382,7 @@ input[type="range"] {
 .touch{
   display: grid;
   place-items: center;
-  height: 400px;
+  height: 380px;
   width: 240px; 
   margin: 10px auto;
   padding: 30px;
