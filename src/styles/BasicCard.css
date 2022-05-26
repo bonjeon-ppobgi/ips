@@ -1,0 +1,45 @@
+.basic-card-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 150px;
+    height: 185px;
+    background: #ffffff;
+    border-radius: 8px;
+}
+.basic-card-product {
+    font-family: Noto Sans KR;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: left;
+    margin: 5px 15px;
+}
+
+.basic-card-house {
+    font-family: Noto Sans KR;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    opacity: 0.5;
+    text-align: left;
+    margin: 0px 15px 15px 15px;
+}
+
+.basic-card-img{
+    margin: 0px auto 10px auto;
+}
+
+.like_btn{
+    font-size: 24px;
+    text-align: right;
+}
+.liked {
+    color: #9706ED;
+   
+}
+.unliked{
+    color: #CACACA;
+}
+

@@ -1,0 +1,124 @@
+.vote-container {
+
+}
+.vote-item-container {
+    display: grid;
+    row-gap: 16px;
+}
+.vote-button-active, .vote-button-inactive {
+    width: 343px;
+    height: 58px;
+    border-radius: 8px;
+    margin-top: 43px;
+    font-family: Noto Sans KR;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 58px;
+    color: #1e217d;
+    text-align: center;
+}
+.vote-button-active {
+    background: #ffffff;
+}
+.vote-button-inactive {
+    background: #777882;
+}
+.vote-item {
+    display: flex;
+    align-items: center;
+}
+.vote-item input {
+    display: none;
+}
+.vote-card-container {
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 263px;
+    height: 98px;
+    display: flex;
+    padding:0 16px;
+    align-items: center;
+    font-family: Noto Sans KR;
+    font-weight: 400;
+    font-size: 12px;
+}
+.vote-card-right {
+    display: flex;
+    flex-direction: column;
+}
+.vote-card-product {
+    color: #040415;
+}
+.vote-card-house {
+    color: #040415;
+    opacity: 0.5;
+}
+.vote-card-turnout {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+}
+.bar-chart {
+    display: flex;
+    justify-content: flex-start;
+    width: 113px;
+    height: 8px;
+    background: rgba(205, 205, 205, 0.5);
+}
+.bar-chart-value {
+    background: #141a6a;
+    height: 8px;
+}
+.vote-card-turnout-text {
+    margin-left: 16px;
+    font-family: Noto Sans KR;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: end;
+    width: 34px;
+}
+.voted {
+    visibility: visible;
+}
+.choice-modal-text{
+    width: 100%;
+    height: 155px;
+    font-family: Noto Sans KR;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.choice-modal-text > div {
+    width: 100%
+}
+.choice-modal-button {
+    display: flex;
+    font-family: Noto Sans KR;
+    font-weight: 500;
+    font-size: 16px;
+    justify-content: space-around;
+    width: 100%;
+    height: 61px;
+    text-align: center;
+}
+.choice-modal-button > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    line-height: 100%;
+}
+.choice-modal-cancel-button  {
+    color: #777882;
+    border-top: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+}
+.choice-modal-accept-button {
+    color: #2b1ba9;
+    border-top: 1px solid #ffffff;
+}

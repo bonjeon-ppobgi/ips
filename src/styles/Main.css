@@ -1,0 +1,26 @@
+.Main-Item {
+    font-size: large;
+    text-align: center;
+    margin:auto;
+    color: rgb(0, 0, 0);
+    
+}
+
+.temp{
+    font-size: 27px;
+    font-weight: bold;
+    color: #7b81d1;
+}
+
+
+.mind{
+    font-size: 25px;
+    font-weight: bold;
+    color: #7b81d1;
+
+}
+.username{
+    font-size: 27px;
+    font-weight: bold;
+    color: #7b81d1;
+}

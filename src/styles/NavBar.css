@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+    height: 30px;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+.navbar-item {
+    font-family: Noto Sans KR;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    width: calc(100vw / 3);
+}
+.navbar-link {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.active {
+    font-weight: 700;
+    color: #121212;
+    border-bottom: 2px solid #121212;
+}
+.inactive {
+    font-weight: 400;
+    color: #777882;
+    border-bottom: 1px solid #777882;
+}

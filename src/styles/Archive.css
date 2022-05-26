@@ -1,0 +1,9 @@
+.archive-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  grid-auto-rows: minmax(204px, auto);
+  grid-auto-columns: minmax(163px, auto);
+  align-items: center;
+  justify-content: center;
+}

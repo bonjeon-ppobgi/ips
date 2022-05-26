@@ -1,0 +1,25 @@
+#grid {
+    table-layout: auto; 
+    width: 80%;
+    height: 300px
+}
+
+.cont {
+    background-color: rgb(255, 255, 255);
+}
+
+#btn {
+    align-items: center;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    font-family: 'GmarketSansMedium';
+    border-radius: 45px;
+    border-color: #6f6fecd0;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #6f6fecd0 inset, 0 0 0 0 #6f6fecd0;
+    transition: all 150ms ease-in-out;
+}
+
+#btn.hover {
+    box-shadow: 0 0 10px 0 #6f6fecd0 inset, 0 0 10px 4px #6f6fecd0;
+}
