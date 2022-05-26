@@ -8,6 +8,7 @@ import Contents from '../pages/Contents';
 import Footer from './common/Footer';
 import ResultPage from '../pages/Result';
 import MainPage from '../pages/Mainpage';
+import CurrentPage from '../pages/Current';
 
 
 
@@ -23,6 +24,7 @@ function App(props) {
             <Route exact path='/main' component={Main} />
             <Route exact path='/contents' component={Contents} />
             <Route exact path='/result' component={ResultPage} />
+            <Route exact path='/current' component={CurrentPage} />
  
 
         </Switch>

@@ -250,7 +250,18 @@ color: #fff;
 box-shadow: 0 0 40px 40px #adadd7d0 inset, 0 0 0 0 #6f6fecd0;
 transition: all 150ms ease-in-out;
 }
-
+.normalBtn-large {
+align-items: center;
+margin: 20px;
+padding: 1.2em 2.8em;
+font-family: 'GmarketSansMedium';
+border-radius: 45px;
+font-size: 20px;
+border-color: #fff;
+color: rgb(255, 255, 255);
+box-shadow: 0 0 40px 40px #adadd7d0 inset, 0 0 0 0 #6f6fecd0;
+transition: all 150ms ease-in-out;
+  }
 
 
 .footer {
@@ -370,8 +381,8 @@ input[type="range"] {
 }
 
 .media-column {
-  padding-left: 230px;
-  padding-right: 230px;
+  padding-left: 180px;
+  padding-right: 180px;
   display: grid;
   margin: 10px auto;
   place-items: center;
@@ -383,7 +394,7 @@ input[type="range"] {
   display: grid;
   place-items: center;
   height: 380px;
-  width: 240px; 
+  width: 300px; 
   margin: 10px auto;
   padding: 30px;
   background-color: rgba(164, 187, 211, 0.528);
@@ -392,7 +403,7 @@ input[type="range"] {
 .touch:hover{
   transform: translateY(-10px); 
   transition: all 500ms ease-in-out;
-  box-shadow: 3px 3px 10px 5px #4646c0d0;
+  box-shadow: 3px 3px 10px 5px #bcbcbcd0;
   border-radius: 45px;
 }
 
@@ -401,7 +412,8 @@ input[type="range"] {
   color:#000000d0;
   font-family: 'GmarketSansBold';
   font-size: 30px;
-  margin:auto;
+  margin-top: 7%;
+  padding-bottom: 10%;
   text-decoration: none;
   text-align: center;
 }

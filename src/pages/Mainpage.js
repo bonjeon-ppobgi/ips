@@ -45,7 +45,15 @@ function MainPage(props) {
                         username: userID
                     }
                 }}>
-                <button class='another'>시작하기</button>
+                <button class='another'>마음 날씨로 확인하기</button>
+                </Link>
+                <Link to={{
+                    pathname: '/current',
+                    state: {
+                        username: userID
+                    }
+                }}>
+                <button class='another'>실제 날씨로 확인하기</button>
                 </Link>
             </div>
         </form>

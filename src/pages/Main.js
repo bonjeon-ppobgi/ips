@@ -29,9 +29,6 @@ function Main(){
         setMindTemp('0');
     }
 
-    // const mindI = this.state.mindID;
-    // const mindT = this.state.mindTemp;
-    
     return(
         <>
         <Header/>
