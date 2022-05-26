@@ -74,7 +74,7 @@ router.post('/', (req, res, next) => {
       } else if (temp >= 0 && temp < 10) {
         res.json({key1: '잔잔한', key2: '마법 속으로', key3:'기분 좋아지는', key4:'로맨틱'});
       } else if (temp >= 10 && temp < 20) {
-        res.json({key1: '상쾌함', key2: '설렘주의', key3:'청춘 영화', key4:'흥미진진'})
+        res.json({key1: '시트콤', key2: '설렘주의', key3:'청춘 영화', key4:'흥미진진'})
       } else if (temp >= 20 && temp < 30) {
         res.json({key1: '유쾌 발랄', key2: '위트 있는', key3:'코미디', key4:'로맨틱'})
       } else {
