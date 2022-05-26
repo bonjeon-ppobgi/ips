@@ -370,18 +370,34 @@ input[type="range"] {
 }
 
 .media-column {
-  padding: 80px;
+  padding-left: 230px;
+  padding-right: 230px;
   display: grid;
   margin: 10px auto;
   place-items: center;
   grid-template-columns: 1fr 1fr 1fr;
   vertical-align: middle;
-  margin-bottom: 30px;
+  transition: all 200ms ease-in-out;
+}
+.touch{
+  display: grid;
+  place-items: center;
+  height: 400px;
+  width: 240px; 
+  margin: 10px auto;
+  padding: 30px;
+  background-color: rgba(164, 187, 211, 0.528);
+  border-radius: 30px;
+}
+.touch:hover{
+  transform: translateY(-10px); 
+  transition: all 500ms ease-in-out;
+  box-shadow: 3px 3px 10px 5px #4646c0d0;
+  border-radius: 45px;
 }
 
 
 .media-title {
-  transition: all 0.3s cubic-bezier(0.42, 0.0, 0.58, 1.0);
   color:#000000d0;
   font-family: 'GmarketSansBold';
   font-size: 30px;
@@ -390,19 +406,7 @@ input[type="range"] {
   text-align: center;
 }
 
-.media-contents {
-  display: grid;
-  place-items: center;
-  height: 400px;
-  width: 350px; 
-  margin: auto;
-  padding: 30px;
-  background-color: rgba(164, 187, 211, 0.528);
-  border-radius: 30px;
-}
-
 a {
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
-a:hover {transform: translateY(-10px)}

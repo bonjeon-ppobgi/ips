@@ -7,6 +7,7 @@ import Header from '../component/common/Header';
 import {Link, useHistory, useLocation } from 'react-router-dom';
 import axios from "axios";
 import Grid from '../component/pretty/grid';
+import FadeIn from "react-fade-in/lib/FadeIn";
 
 
 function ResultPage() {
@@ -35,7 +36,7 @@ function ResultPage() {
   return (
     <>
     <Header />
-      <div className = ''style={{display: 'flex', justifyContent:'center'}}>
+    <div className = ''style={{display: 'flex', justifyContent:'center'}}>
         <p class='keyword'># { word }</p>
       </div>
       <div class="webname">
@@ -49,7 +50,7 @@ function ResultPage() {
 
       <div class="media-column">
         {info.map(data => (
-          <div style={{margin:"10px auto"}}>
+          <div class="touch">
             <Link to={{
             pathname:"/contents",
             state:{
@@ -66,10 +67,8 @@ function ResultPage() {
             </div>
           </Link>
           </div>
-
         ))}
       </div>
-
     </>
   )
 }
